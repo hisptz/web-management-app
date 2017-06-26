@@ -1,0 +1,20 @@
+{
+  "author": "Josephat Julius",
+  "name": "express-app2",
+  "description": "HISPTZ app",
+  "version": "1.0.0",
+  "repository": {
+    "type": "git"
+  },
+  "scripts": {
+	"start": "node app.js"
+  },
+  "engines": {
+    "node": "~0.4.12"
+  },
+  "dependencies": {
+	"express": "2.2.x",
+	"jade": "0.20.x"
+  },
+  "devDependencies": {}
+}
