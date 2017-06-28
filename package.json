@@ -14,7 +14,8 @@
   },
   "dependencies": {
 	"express": "2.2.x",
-	"jade": "0.20.x"
+	"jade": "0.20.x",
+    "bootstrap": "/node_modules/bootstrap/dist/css/bootstrap.min.css"
   },
   "devDependencies": {}
 }

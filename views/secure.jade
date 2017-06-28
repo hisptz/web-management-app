@@ -3,9 +3,11 @@ html(lang='en')
 	head
 		title HISPTZ
 	body
-		h1 Hi, Welcome.
-		p Navigate to
-			ul
-				li: a(href="/secure") Secure content
-				li: a(href="/welcome") Welcome page
-				li: a(href="/logout") Logout
+		h1(style="text-align:center;") Hi, Welcome.
+		p(style="margin-left: 10%") To Edit your profile, navigate to
+			ul()
+				div(style="width: 15%; display: inline-block; margin-left: 10%"): a(href="/personal_description/#{id}") Personal Description
+				div(style="width: 15%; display: inline-block;"): a(href="/education/#{id}") Education
+				div(style="width: 15%; display: inline-block;"): a(href="/experience/#{id}") Experience
+				div(style="width: 15%; display: inline-block;"): a(href="/consultancy/#{id}") Consultancy
+				div(style="width: 15%; display: inline-block;"): a(href="/skills/#{id}") Skills
