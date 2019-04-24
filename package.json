@@ -13,8 +13,8 @@
     "node": "~0.4.12"
   },
   "dependencies": {
-	"express": "2.2.x",
-	"jade": "0.20.x",
+	"express": "~4.16.4",
+	"jade": "~1.11.0",
     "bootstrap": "/node_modules/bootstrap/dist/css/bootstrap.min.css"
   },
   "devDependencies": {}
